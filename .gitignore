@@ -1,0 +1,55 @@
+# 1. Block Large Folders (Managed by Zenodo)
+/data/
+/output/
+/results/
+notebooks/
+p2rank/
+.vscode/
+
+# 2. Block Heavy File Formats Globally
+*.cif
+*.pdb
+*.npz
+*.pt
+*.h5
+*.db
+*.zip
+*.png
+*.pdf
+*.svg
+*.csv
+*.log
+*.ds
+*.pml
+
+# 3. Block Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# 4. Block ALL Local Development & Scrap Scripts
+audit_extracted.py
+check.ipynb
+evaluate_test_set.py
+eval_pocket_dca.py
+extract_and_format.py
+extract_baseline.py
+find_tables.py
+force_prepare.py
+format_tab.py
+generate_final_table.py
+generate_optuna_table.py
+inspect_zip.py
+prep_p2rank.py
+prepare_case_studies.py
+run_and_eval_p2rank.py
+run_baseline_logistic.py
+run_bootstrap_eval.py
+run_case_studies.py
+run_final_metrics_evaluation.py
+run_gate_stats.py
+run_p2rank_auto.py
+verify_ready.py
+visualize_all_standardized.pml
+generate_gate_plot.py

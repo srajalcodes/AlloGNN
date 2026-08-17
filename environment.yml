@@ -1,0 +1,22 @@
+name: allognn
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.2
+  - pytorch-cuda=12.1
+  - pyg=2.5.0
+  - pandas=2.1.4
+  - numpy=1.26.2
+  - scikit-learn=1.3.2
+  - h5py=3.10.0
+  - biopython=1.81
+  - matplotlib=3.8.2
+  - seaborn=0.13.0
+  - tqdm=4.66.1
+  - pip:
+    - fair-esm==2.0.0
