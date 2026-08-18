@@ -7,7 +7,7 @@ from pathlib import Path
 
 def main():
     # Replace this link with your actual Zenodo direct download link once uploaded
-    ZENODO_URL = "https://zenodo.org/record/18226590/files/AlloGNN_Data.zip?download=1"
+    ZENODO_URL = "https://zenodo.org/records/21978244/files/AlloGNN_Data.zip?download=1"
     
     zip_path = Path("AlloGNN_Data.zip")
     data_dir = Path("data")
